@@ -36,7 +36,7 @@ vulnerable or not.
 We then call this function to generate a dataset of 10 functions and print out the code for each function. 
 The output will look something like this:
 
-```
+```python
 vulnerable_function_0 - vulnerable: True
 def vulnerable_function_0(input):
     sql_query = 'SELECT * FROM users WHERE username = ' + input
